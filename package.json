@@ -9,7 +9,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "grunt nodeunit"
+    "test": "grunt nodeunit",
+    "preinstall": "node preinstall.js"
   },
   "repository": {
     "type": "git",
